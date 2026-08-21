@@ -33,9 +33,9 @@ reg [7:0] temp;
 
 initial
 begin
-    a = 8'd10;
-    b = 8'd20;
-    c = 8'd30;
+    a = 3;
+    b = 4;
+    c = 5;
 
     $display("Before Swapping");
     $display("A=%d B=%d C=%d", a, b, c);
@@ -74,6 +74,9 @@ endmodule
 
 ## Expected Output
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/46ed1484-58c1-4d90-aa06-4e2f649e84e9" />
+
+<img width="1200" height="1600" alt="WhatsApp Image 2026-08-19 at 9 50 15 AM" src="https://github.com/user-attachments/assets/3bb346bf-63a8-474b-b287-5e8e7deba24e" />
 
 
 ## Result
